@@ -1,0 +1,117 @@
+// Global styling for this template
+body {
+  font-size: 20px;
+  color: $gray-900;
+  @include serif-font;
+}
+
+p,li {
+  line-height: 1.5;
+  margin: 0.8em 0px;
+  font-size: 1rem;
+  @include sans-serif-font;
+  a {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+  font-family: 'Permanent Marker';
+}
+.page-title {
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+}
+h2 {
+  font-size: 1.6em;
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+}
+h3 {
+  font-size: 1.3em;
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+}
+h4{
+  font-size: 1.2em;
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+}
+h5 {
+  font-size: 1.1em;
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+}
+h6 {
+  font-size: 1em;
+  line-height: 1.43;
+  border-bottom: 1px solid #efe9e9;
+  @include sans-serif-font;
+}
+
+a {
+  color: $gray-900;
+  @include transition-all;
+  &:focus,
+  &:hover {
+    color: $primary;
+  }
+}
+
+blockquote {
+  border-left: 4px solid rgb(223, 226, 229);
+  padding: 0px 15px;
+  color: rgb(119, 119, 119);
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.home-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 130px;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+::-moz-selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  color: $white;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: $white;
+  background: transparent;
+}

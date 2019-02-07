@@ -1,0 +1,23 @@
+title:             Ray.wu
+email:             781504900@qq.com
+description:       过程是风景，结果是明信片
+author:            Ray Wu
+baseurl:           ""
+url:               "http://realnumber666.github.io"
+favicon:           "/img/favicon.ico"
+sass:
+  sass_dir: _sass
+  style: compressed
+# Social Profiles
+twitter_username:  
+github_username:   realnumber666
+facebook_username: 
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
