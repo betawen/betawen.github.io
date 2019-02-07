@@ -1,16 +1,16 @@
-title:             Ray.wu
-email:             781504900@qq.com
-description:       过程是风景，结果是明信片
-author:            Ray Wu
+title:             RabbitBeta
+email:             betaneverstop@gmail.com
+description:       不管遇到什么勇敢专注才是真理
+author:            Rabbit Beta
 baseurl:           ""
-url:               "http://realnumber666.github.io"
+url:               "http://betawen.github.io"
 favicon:           "/img/favicon.ico"
 sass:
   sass_dir: _sass
   style: compressed
 # Social Profiles
 twitter_username:  
-github_username:   realnumber666
+github_username:   betawen
 facebook_username: 
 
 # Build settings
